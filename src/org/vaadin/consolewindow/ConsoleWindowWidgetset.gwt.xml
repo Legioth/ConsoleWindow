@@ -11,4 +11,6 @@
   	<when-type-is class="com.vaadin.terminal.gwt.client.VDebugConsole" />
   </replace-with>
   
+
+    <inherits name="com.vaadin.terminal.gwt.DefaultWidgetSet" />
 </module>
