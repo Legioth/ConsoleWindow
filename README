@@ -1,0 +1,1 @@
+A drop in replacement for the Vaadin debug console. The same functionality is provided in a separate browser window instead of in a floating popup inside the browser window hosting the application. 

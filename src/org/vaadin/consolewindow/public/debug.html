@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Debug window</title>
+<link rel="stylesheet" type="text/css" href="debug.css">
+<script type="text/javascript">
+window.vaadin = {
+	vaadinConfigurations: [],
+	debug: true
+};
+var widgetsetName = /\/([^\/]*)\/[^\/]*$/.exec(window.location.pathname)[1];
+document.write(unescape("%3Cscript src='" + widgetsetName + ".nocache.js?" + new Date() + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</script>
+</head>
+<body>
+</body>
+</html>
