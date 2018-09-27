@@ -1,5 +1,0 @@
-A drop in replacement for the Vaadin debug console. The same functionality is provided in a separate browser window instead of in a floating popup inside the browser window hosting the application.
-
-Binary download from http://vaadin.com/directory#addon/consolewindow
-
-License: Apache 2.0
